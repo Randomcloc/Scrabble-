@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/abhijeet/ucd/projects/Scrabble/game.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+stdbool.h
+-
+ctype.h
+-
+
+/Users/abhijeet/ucd/projects/Scrabble/generateLetters.h
+stdio.h
+-
+stdlib.h
+-
+time.h
+-
+
+/Users/abhijeet/ucd/projects/Scrabble/main.c
+stdio.h
+-
+string.h
+-
+readScores.h
+/Users/abhijeet/ucd/projects/Scrabble/readScores.h
+generateLetters.h
+/Users/abhijeet/ucd/projects/Scrabble/generateLetters.h
+game.h
+/Users/abhijeet/ucd/projects/Scrabble/game.h
+
+/Users/abhijeet/ucd/projects/Scrabble/readScores.h
+stdio.h
+-
+stdlib.h
+-
+
